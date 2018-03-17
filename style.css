@@ -1,0 +1,46 @@
+button{
+    margin: 10px;
+}
+.btn1{
+    margin: 5px;
+    padding : 5px;
+    background-color: #7fff00;
+    border: 5px double blue;
+    border-radius: 10px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #7fff00;
+    color: white;
+    width: 323px;
+    border: 5px dotted blue; 
+    border-radius: 10px; 
+}
+#div1{
+    margin-top: 100px;
+    border: 5px dashed blue;
+    background-color: skyblue;
+    width: 350px;
+    border-radius: 10px;
+}
+#val{
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px dotted yellowgreen;
+    background-color: aqua;  
+}
+li{
+    list-style: none;
+}
+button{
+    border-radius: 10px;
+}
+body{
+    background-color: cyan; 
+}
+#val:hover{
+    background-color: #7fff00;
+}
+#val:focus{
+    background-color: white;
+}
