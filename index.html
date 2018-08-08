@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBwJJj2w-T8k2Tb7vTuy52TTIxCPNTCqdM",
+            authDomain: "mansoor-assignments.firebaseapp.com",
+            databaseURL: "https://mansoor-assignments.firebaseio.com",
+            projectId: "mansoor-assignments",
+            storageBucket: "mansoor-assignments.appspot.com",
+            messagingSenderId: "36001623484"
+        };
+        // function savedb() {
+            // var val = document.getElementById("val").value;
+            // firebase.database().ref("Todo App").child("Value").push(val);
+        // }
+        // firebase.database().ref("Todo App").child("Value").on("child_added", (data) => {
+        //     var obj = data.val();
+        //     console.log(obj);
+        // });
+    </script>
     <title>JavaScript</title>
 </head>
 
@@ -14,7 +34,7 @@
         <div id="div1">
             <h1>TODO APP</h1>
             <input type="text" id="val">
-            <button onclick="add()" class="btn1">Add</button>
+            <button onclick="add();" class="btn1">Add</button>
             <button onclick="deleteAll()" class="btn1">Delete All</button>
             <div>
                 <ul id="list"></ul>

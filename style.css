@@ -1,3 +1,6 @@
+body{
+    background-image: url('ui.jpg');
+}
 button{
     margin: 10px;
 }
@@ -7,6 +10,7 @@ button{
     background-color: #7fff00;
     border: 5px double blue;
     border-radius: 10px;
+    outline-width: 0px;
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
